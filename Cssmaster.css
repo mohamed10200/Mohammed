@@ -62,7 +62,7 @@ section{
 
 
 .main{
-    background-image: url("Img/Mainlogo1244.jpg"); 
+    background: url("Img/Mainlogo1244.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
