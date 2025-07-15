@@ -44,9 +44,6 @@ header{
 }
 
 .navigation a:hover{
-    /*
-    text-decoration: underline #1c0078;
-    */
     color: skyblue;
     border-bottom: 3px solid skyblue;
     border-radius: 2px;
@@ -198,11 +195,11 @@ section{
 
 
 .marquee-container {
-    background-color: #07182e; /* Skyblue أغمق شوية */
+    background-color: #07182e; 
     overflow: hidden;
     white-space: nowrap;
     direction: rtl;
-    text-shadow: 3px 3px 25px rgba(70, 100, 163, 0.867); /* ظل خفيف للشريط نفسه */
+    text-shadow: 3px 3px 25px rgba(70, 100, 163, 0.867);
     }
 
     .marquee-content {
@@ -217,14 +214,14 @@ section{
     margin: 0 2rem;
     font-size: 1.6rem;
     color: #fff;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* ظل للنص */
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
     }
 
     .item img {
     width: 28px;
     height: 28px;
     margin-left: 8px;
-    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5)); /* ظل للأيقونة */
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
     }
 
     @keyframes scroll {
