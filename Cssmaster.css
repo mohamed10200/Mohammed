@@ -107,7 +107,6 @@ section{
     font-size: 2.5em;
     width: 15ch;
     white-space: nowrap;
-    overflow:;
     animation: typing 0.5s steps(15), blink 2s infinite;
 }
 
