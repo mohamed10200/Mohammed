@@ -389,6 +389,11 @@ section{
     transform: scale(1.1);
 }
 
+.box:hover > :not(:hover){
+    filter: blur(5px);
+    opacity: 0.7;
+}
+
 .image img{
     width: 100%;
     height: 200px;
@@ -587,6 +592,7 @@ button:hover {
     transform: scale(1.1);
     transition: 0.3s ease;
 }
+
 
 
 
