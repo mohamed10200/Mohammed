@@ -1,6 +1,6 @@
 const element = document.querySelector('.typing2');
   const messages = [
-    "Frontend Programmer",
+    "Frontend Programmer (React)",
     "ui ux designer",
     "an article writer"
   ];
